@@ -119,9 +119,8 @@ const Cart = () => {
         </>
       ) : (
         <MotionBox
-          opacity={0}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          opacity={1}
+     
           transition={{ delay: 0.5 }}
         >
           <Text mb={4}>No Items in your cart</Text>

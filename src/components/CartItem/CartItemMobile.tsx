@@ -53,9 +53,9 @@ const CartItemMobile = ({ product }: Props) => {
   return (
     <MotionBox
       display={{ base: "block", bigTablet: "none" }}
-      opacity={0}
+      opacity={1}
       // animation
-      initial={{ opacity: 0 }}
+      // initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       layout
       transition={{

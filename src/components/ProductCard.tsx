@@ -48,10 +48,9 @@ const ProductCard = ({ product }: Props) => {
       h="420px"
       w="100%"
       maxW="280px"
-      opacity={0}
+      opacity={1}
       // animation
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 0.3 } }}
+      
       layout
       transition={{
         type: "spring",

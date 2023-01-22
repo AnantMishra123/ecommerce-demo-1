@@ -32,10 +32,10 @@ const CartItem = ({ product }: Props) => {
   return (
     <MotionBox
       display={{ base: "none", bigTablet: "block" }}
-      opacity={0}
+      opacity={1}
       // animation
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 0.5 } }}
+      
+    
       layout
       transition={{
         type: "spring",
