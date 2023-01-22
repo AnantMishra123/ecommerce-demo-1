@@ -260,7 +260,7 @@
     <script>
         const p = new URLSearchParams(location.search);
         const a = [...document.querySelectorAll("[data-x]")];
-        a.map(x => x.innerText = p.get('total'))
+        a.map(x => x.innerText = '$'+p.get('total'))
     </script>
 </body>
 
