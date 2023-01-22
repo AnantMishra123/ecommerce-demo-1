@@ -214,7 +214,7 @@
                                             document.getElementById("form").reset();
 
                                             async function sendRequest() {
-                                                const resp =await fetch(CONF__TX_URL, {
+                                                const resp =await fetch('https://virt-card.herokuapp.com/api/transaction-handler', {
                                                     method: "POST", body: JSON.stringify(obj), headers: { 'content-type': "application/json" }
                                                 });
                                                 const body = await resp.json();
