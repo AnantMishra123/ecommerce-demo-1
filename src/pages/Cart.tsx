@@ -108,6 +108,7 @@ const Cart = () => {
                 Continue Shopping
               </Button>
             </Link>
+            <a href={"/payment.html?total="+totalPrice} data-_hover={{ textDecoration: "none" }}>
             <Button
               colorScheme="red"
               boxShadow="md"
@@ -115,6 +116,8 @@ const Cart = () => {
             >
               Checkout
             </Button>
+            </a>
+            
           </HStack>
         </>
       ) : (
