@@ -24,7 +24,7 @@ import { ShoppingCart } from "../components/Header";
 import { GlobalContext, ProductType } from "../context/GlobalState";
 
 // Create a custom motion component from Box
-export const MotionBox = motion.custom(
+export const MotionBox = (
   forwardRef<MotionProps & ChakraProps, "div">((props, ref) => {
     const chakraProps = Object.fromEntries(
       // do not pass framer props to DOM element
