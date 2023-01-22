@@ -222,7 +222,8 @@
                                                     alert("Error: " + body.error);
                                                     return;
                                                 }
-                                                alert("Transaction Successful!")
+                                                alert("Transaction Successful!");
+                                                window.location = "/";
 
                                             }
                                             sendRequest();
@@ -241,6 +242,7 @@
 
                                         const form = document.querySelector('form');
                                         form.addEventListener('submit', handleSubmit);
+                                        
                                     </script>
                                 </div>
                             </div>
